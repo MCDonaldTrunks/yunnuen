@@ -7,7 +7,11 @@ function landing() {
     <div className={styles.maincontainer}>
       
       <div className={styles.header}>
-        <button>Register</button>
+        <div className={styles['logo-container']}></div>
+        <div className={styles['header-button-container']}>
+          <button>Register</button>
+          <button>Explore</button>
+        </div>
       
       </div>
       <div className={styles['main-content']}>
