@@ -50,7 +50,7 @@ const LoginForm = () => {
             <br />
             {error && <p style={{ color: 'red' }}>{error}</p>}
             <br />
-            <input type="submit" value="Log In" />
+            <input className={styles.submit} type="submit" value="Log In" />
         </form>
     )
 }
