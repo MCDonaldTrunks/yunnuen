@@ -1,16 +1,23 @@
 import React from 'react'
 import styles from './landing.module.scss'
 import LoginForm from './loginForm.jsx'
+import Image from 'next/image'
+import logo from '../src/logo.png'
+
 
 function landing() {
   return (
     <div className={styles.maincontainer}>
       
       <div className={styles.header}>
-        <div className={styles['logo-container']}></div>
+        <div className={styles['logo-container']}>
+          <Image className={styles.logo} src={logo}/>
+        </div>
         <div className={styles['header-button-container']}>
-          <button>Register</button>
-          <button>Explore</button>
+          <div>Register</div>
+          <a href='/Explore'>
+            <div>Explore</div>
+          </a>
         </div>
       
       </div>
