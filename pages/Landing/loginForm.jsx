@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import styles from './landing.module.scss'
+import styles from './Landing.module.scss'
 
 const LoginForm = () => {
     const [email, setEmail] = useState('')

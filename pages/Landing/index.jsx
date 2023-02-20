@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './landing.module.scss'
+import styles from './Landing.module.scss'
 import LoginForm from './loginForm.jsx'
 import Image from 'next/image'
 import logo from '../src/logo.png'
