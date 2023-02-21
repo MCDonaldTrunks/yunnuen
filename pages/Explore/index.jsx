@@ -2,11 +2,13 @@ import React from 'react'
 import styles from './Explore.module.scss'
 import Banner from './Components/Banner/Banner.jsx'
 import Footer from './Components/Footer/Footer.jsx';
-import Header from './Components/Header/Header.jsx'
+import Header from './Components/Header/Header.jsx';
+import TopScroll from './Components/TopScroll/TopScroll.jsx';
 
 function Explore() {
   return (
     <div className={styles['main-container']}>
+      
       <Header/>
       
 
@@ -34,6 +36,7 @@ function Explore() {
         </div>
         
       </div>
+      <TopScroll/>
       <Footer/>
     </div>
   )
