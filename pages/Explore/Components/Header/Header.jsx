@@ -22,7 +22,9 @@ function Header() {
         </a>
       </div>
       <div className={styles['header-button-container']}>
-        <div>Register</div>
+        <a href='/Register'>
+          <div>Register</div>
+        </a>
         <a href='/Landing'>
           <div>Log In</div>
         </a>

@@ -14,7 +14,9 @@ function landing() {
           <Image className={styles.logo} src={logo}/>
         </div>
         <div className={styles['header-button-container']}>
-          <div>Register</div>
+          <a href='/Register'>
+            <div>Register</div>
+          </a>
           <a href='/Explore'>
             <div>Explore</div>
           </a>
